@@ -65,10 +65,8 @@ class Reports extends React.Component {
       .then(res => res.json())
       .then(
         result => {
-          console.log('result', result);
           if (Array.isArray(result)) {
             const report = this.calculateReport(result);
-            console.log('report', report);
             this.setState({
               isLoading: false,
               isDataLoaded: true,
@@ -128,10 +126,6 @@ class Reports extends React.Component {
             </Table>
       </div>
     )
-  }
-
-  componentDidmount() {
-
   }
 }
 
