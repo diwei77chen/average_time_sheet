@@ -1,0 +1,21 @@
+{
+  "name": "@playgroundxyz/data-analytics-pair-prog-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon server.js",
+    "debug": "nodemon --debug server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1"
+  }
+}
